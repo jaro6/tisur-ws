@@ -1,0 +1,118 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.flex-around {
+    justify-content: space-around;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.img-responsive {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+main {
+    min-height: calc(100vh - 80px - 50px);
+}
+
+figure {
+    margin: 0;
+}
+
+/* Hero image */
+
+.hero-image {
+    background: url(../assets/images/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+/* Boja preko slike */
+.hero-image:after {
+    content: "";
+    display: block;
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    margin-top: 24px;
+    border-radius: 16px;
+    background: white;
+    padding: 4px 16px;
+    margin-bottom: 24px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin: 0;
+    color: #333
+}
+
+.pages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+}
+
+.cell {
+    height: 30vh;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    background-color: transparent;
+    transition: all .4s ease-in-out;
+    z-index: 1;
+}
+
+.cell:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
