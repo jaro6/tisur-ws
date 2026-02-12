@@ -360,3 +360,8 @@ header nav ul li a.active {
 .fade-image-container:hover .fade-overlay {
   opacity: 1;
 }
+
+#chromatic_thoughts {
+  margin: 40px auto;
+  max-width: 1200px;
+ }
