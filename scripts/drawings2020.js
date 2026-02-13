@@ -115,6 +115,6 @@ data.forEach(item => {
       img.src = item.imageUrl;
       img.alt = item.title;
       img.style.margin = "40px auto"; // optional styling
-      img.style.maxWidth = item.width *6 + "px"; // optional size limit
+      img.style.maxWidth = "300px"; // optional size limit
       maindiv.appendChild(img);
     });
