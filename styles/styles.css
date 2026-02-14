@@ -331,6 +331,7 @@ header nav ul li a.active {
   /* display: inline-block; */
   width: 400px;
   overflow: hidden;
+  margin: 40px auto;
 }
 
 .fade-image-container img {
