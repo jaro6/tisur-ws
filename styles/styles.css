@@ -366,3 +366,12 @@ header nav ul li a.active {
   margin: 40px auto;
   max-width: 1200px;
  }
+
+ .drawings {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 60%;
+  margin: 2em auto;
+ }
