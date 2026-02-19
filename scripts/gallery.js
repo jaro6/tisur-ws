@@ -58,7 +58,7 @@ const data = [
         "title": "VS theme",
         "description": "A vibrant depiction of a sunset over a bustling cityscape.",
         "imageUrl": "../assets/images/works/in_search_for_painting/TT3.jpg",
-        "width": "100",
+        "width": "200",
     },
     {
         "title": "Druga velika",
